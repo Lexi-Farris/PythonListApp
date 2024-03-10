@@ -14,11 +14,16 @@
     # Calculate the sum of numbers from 1 to n
     
 i = 0
+sum = 0
 
-while i < 5:
-  print("Hi")
+while i < 10:
+  sum = sum + i # 0 = 0+1 1 | =1+2 3 | 3+3 6 ....  
   i +=1
+
+print(sum)
     
+# Solution: sum all numbers from 1 to that number.
+# 1st: 1+2+3+4+5+6+7+8+9+10
     
 #     pass
 # # Test cases
