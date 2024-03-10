@@ -1,22 +1,28 @@
-def sum_of_n(n):
-    """
-    Calculates the sum of all integers from 1 to n.
+# def sum_of_n(n):
+#     """
+#     Calculates the sum of all integers from 1 to n.
 
-    Args:
-    n (int): A positive integer up to which the sum is calculated.
+#     Args:
+#     n (int): A positive integer up to which the sum is calculated.
 
-    Returns:
-    int: The sum of all integers from 1 to n.
-    """
+#     Returns:
+#     int: The sum of all integers from 1 to n.
+#     """
     # Handle the edge case where n is 0
     
 
     # Calculate the sum of numbers from 1 to n
     
-    pass
+i = 0
 
-# Test cases
-print(sum_of_n(10))  # Expected output: 55
-print(sum_of_n(25))  # Expected output: 325
-print(sum_of_n(0))   # Expected output: 0
-print(sum_of_n(100)) # Expected output: 5050
+while i < 5:
+  print("Hi")
+  i +=1
+    
+    
+#     pass
+# # Test cases
+# print(sum_of_n(10))  # Expected output: 55
+# print(sum_of_n(25))  # Expected output: 325
+# print(sum_of_n(0))   # Expected output: 0
+# print(sum_of_n(100)) # Expected output: 5050
